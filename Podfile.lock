@@ -1,0 +1,145 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - AMSmoothAlert (1.1):
+    - GPUImage
+  - apptentive-ios (1.6.1):
+    - apptentive-ios/arc-files (= 1.6.1)
+  - apptentive-ios/arc-files (1.6.1)
+  - AviarySDK (4.3.3)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Bolts (1.1.3)
+  - BSImagePicker (0.7)
+  - CSStickyHeaderFlowLayout (0.2.3)
+  - DSXActivityIndicator (0.0.1)
+  - Facebook-iOS-SDK (3.21.1):
+    - Bolts (~> 1.0)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - GCPlaceholderTextView (1.0.1)
+  - GoogleAnalytics-iOS-SDK (3.0.9)
+  - GPUImage (0.1.6)
+  - IBActionSheet (0.0.2)
+  - Intercom (2.0.6)
+  - IOSLinkedInAPI (1.0.0):
+    - AFNetworking (~> 1.3.3)
+  - ISO8601DateFormatterValueTransformer (0.6.0):
+    - RKValueTransformers (~> 1.1.0)
+  - MBProgressHUD (0.9)
+  - NSAttributedString+CCLFormat (1.0.1)
+  - Parse-iOS-SDK (1.2.19):
+    - Facebook-iOS-SDK (~> 3.7)
+  - ReactiveCocoa (2.4.2):
+    - ReactiveCocoa/UI (= 2.4.2)
+  - ReactiveCocoa/Core (2.4.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.2)
+  - ReactiveCocoa/UI (2.4.2):
+    - ReactiveCocoa/Core
+  - RestKit (0.23.1):
+    - RestKit/Core (= 0.23.1)
+  - RestKit/Core (0.23.1):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.23.1):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.23.1):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.23.1):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.23.1):
+    - TransitionKit (= 2.1.0)
+  - RKValueTransformers (1.1.1)
+  - SOCKit (1.1)
+  - SWTableViewCell (0.3.6)
+  - TransitionKit (2.1.0)
+  - TTTAttributedLabel (1.12.0)
+  - UzysCircularProgressPullToRefresh (1.0.8)
+
+DEPENDENCIES:
+  - AMSmoothAlert
+  - apptentive-ios
+  - AviarySDK (= 4.3.3)
+  - BlocksKit
+  - BSImagePicker (~> 0.7)
+  - CSStickyHeaderFlowLayout (= 0.2.3)
+  - DSXActivityIndicator (= 0.0.1)
+  - FontAwesomeKit
+  - GCPlaceholderTextView (= 1.0.1)
+  - GoogleAnalytics-iOS-SDK (= 3.0.9)
+  - IBActionSheet
+  - Intercom
+  - IOSLinkedInAPI (= 1.0)
+  - MBProgressHUD
+  - NSAttributedString+CCLFormat
+  - Parse-iOS-SDK (= 1.2.19)
+  - ReactiveCocoa
+  - RestKit (= 0.23.1)
+  - SWTableViewCell
+  - TTTAttributedLabel
+  - UzysCircularProgressPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  AMSmoothAlert: 108cf0fc3eea9256ccfdcd9deaa283999ac1e47e
+  apptentive-ios: b1a7e9d0412bcb0d71e4628bab6b87168e73eb76
+  AviarySDK: bee8d1683834bf8ac68f100ab65d5ccaa5d8bda8
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Bolts: e431c88fd02115d4a34016c2100bbfa4d2d5b146
+  BSImagePicker: df4f325f43330d853285c57ee7661ec5c408a124
+  CSStickyHeaderFlowLayout: 42633a45d33abd6dd6937b81b6d2381e01c86835
+  DSXActivityIndicator: a0bd2ec582655e0219d6d1fce8857bf8b72fd358
+  Facebook-iOS-SDK: 20e413a6e34f9155d7a34484e0c08247fae3e47f
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  GCPlaceholderTextView: dec36f63092602c6b5df76e2ce43fa22671b9d12
+  GoogleAnalytics-iOS-SDK: 3b0994bef22ed2e176a9e2a4d1660c7c2542eb47
+  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  IBActionSheet: 4028206b0561772c3674a339fb4a7265d55a6f8b
+  Intercom: 89731ba24eaac36ce6bcebc152d1606a394e272c
+  IOSLinkedInAPI: d8555f8ec179f6d751b3bb2121ffa15e7deddf25
+  ISO8601DateFormatterValueTransformer: 3ac3a721381697cab4e792d8049ce2f2e9ad3036
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  NSAttributedString+CCLFormat: ed7a2c814ac5444d0747c11ec0e532d46839a480
+  Parse-iOS-SDK: 63f475e1b936cfb8426f069fdb3e739d0cc9cfd8
+  ReactiveCocoa: fdf629a7321cc7504936fa86243d8c616faad302
+  RestKit: be8b58d4c72f23220fe7f77162f2a17d82f8ef84
+  RKValueTransformers: d016f1967ae67997e492520fd0f9c512ccf168ae
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SWTableViewCell: db853264181dbb5ae936b561a730bc7cc8d9d4ab
+  TransitionKit: bc306605fb5e05a743c18d42239dc0e211619547
+  TTTAttributedLabel: 2f39c9f6f3b1127202c83a16a7aae8b7f4f03c4b
+  UzysCircularProgressPullToRefresh: 43fde931f44258dcc729bde99711dcfac40e94ae
+
+COCOAPODS: 0.37.2

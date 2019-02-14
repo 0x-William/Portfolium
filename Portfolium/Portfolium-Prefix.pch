@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+#define Xcode5Code(code, alt) code
+#else
+#define Xcode5Code(code, alt) alt
+#endif
+
+#define DLog(...) NSLog(@"%s [Line %d] %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
+
+#define TICK   NSDate *startTime = [NSDate date]
+#define TOCK   DLog(@"Time: %f", -[startTime timeIntervalSinceNow])
